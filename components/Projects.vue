@@ -1,27 +1,25 @@
 <template>
-  <div>
-    <b-card>
-      <b-card-title outlined>
-        <h5 class="title">Projects</h5>
-      </b-card-title>
-      <b-card-text>
-        <div v-for="(proj, index) in projects" :key="index">
-          <img
-            src="~/assets/icon/circle-solid.svg"
-            class="dot-icon mr-1"
-            alt=""
-          />
-          <a :href="proj.link">
-            <span class="title">{{ proj.title }}</span>
-          </a>
+  <b-card>
+    <b-card-title outlined>
+      <h5 class="title">Projects</h5>
+    </b-card-title>
+    <b-card-text>
+      <div v-for="(proj, index) in projects" :key="index">
+        <img
+          src="~/assets/icon/circle-solid.svg"
+          class="dot-icon mr-1"
+          alt=""
+        />
+        <a :href="proj.link">
+          <span class="title">{{ proj.title }}</span>
+        </a>
 
-          <span class="info-detail" v-if="proj.description"
-            >( {{ proj.description }} )</span
-          >
-        </div>
-      </b-card-text>
-    </b-card>
-  </div>
+        <span class="info-detail" v-if="proj.description"
+          >( {{ proj.description }} )</span
+        >
+      </div>
+    </b-card-text>
+  </b-card>
 </template>
 
 <script>
@@ -30,49 +28,46 @@ export default {
     return {
       projects: [
         {
+          title: "Drive - HiPixi ",
+          link: "https://drive.hipixi.com/",
+          description:
+            "An enterprise platform for secure file uploading, management, and sharing.",
+        },
+        {
           title: "Ako Rayan website",
           link: "https://akorayan.netlify.app/",
-          description: "Transform What's on your mind into What's in your hand",
+          description:
+            "A modern, responsive website turning ideas into real-world applications.",
         },
         {
           title: "Charm db panel",
           link: "https://charmdb.wingstech.org/",
-          description: "Flexible outputs,Seamless collaboration",
+          description:
+            "A flexible database management panel with seamless collaboration features.",
         },
         {
           title: "Code in One panel",
           link: "https://code.wingstech.org/",
-          description: "Do more with less with code in one",
+          description:
+            "A development panel optimizing coding efficiency and project management.",
         },
         {
           title: "Rayka Txp",
           link: "http://194.225.78.198/authentication/sign-in",
-          description: "One platform for calc merchants txp",
+          description:
+            "A financial platform for transaction processing and merchant tax calculations.",
         },
         {
           title: "Clock App",
           link: "http://45.92.94.113:4173/login",
-          description: "Managing your time, team & business",
+          description:
+            "A productivity tool for time management, task scheduling, and team collaboration.",
         },
         {
           title: "Taksan",
           link: "https://taksaanpre.ir/",
-          description: "Industrial market online platform",
-        },
-        {
-          title: "Taksan's academy site",
-          link: "https://academy.taksaan.ir/",
-          description: "",
-        },
-        {
-          title: "Taksan's advertisement site",
-          link: "https://agahi.taksaanpre.ir/",
-          description: "",
-        },
-        {
-          title: "Taksan's supplier panel",
-          link: "https://supplier.taksaanpre.ir/",
-          description: "",
+          description:
+            "An industrial marketplace connecting suppliers and buyers for seamless transactions.",
         },
       ],
     };

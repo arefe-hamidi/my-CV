@@ -1,21 +1,12 @@
 <template>
-  <div>
-    <b-container>
-      <PersonalInfo class="mb-2" />
-      <b-row>
-        <b-col md="9">
-          <Summary class="mb-2" />
-          <Experiance class="mb-2" />
-          <Educations class="mb-2" />
-          <!-- <Hobby class="my-2" /> -->
-        </b-col>
-        <b-col md="3">
-          <Skills class="mb-2" />
-          <Projects class="mb-2" />
-        </b-col>
-      </b-row>
-    </b-container>
-  </div>
+  <b-container>
+    <PersonalInfo />
+    <Summary />
+    <Skills />
+    <Experiance />
+    <Educations />
+    <Projects />
+  </b-container>
 </template>
 
 <script>

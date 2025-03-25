@@ -1,37 +1,31 @@
 <template>
-  <div>
-    <b-card>
-      <b-card-title outlined>
-        <h5 class="title">Education</h5>
-      </b-card-title>
-      <b-card-text>
-        <div v-for="(education, index) in Educations" :key="index" class="mt-2">
-          <div class="d-flex flex-row">
-            <div>
-              <h5 class="importent-title">{{ education.FieldOfStudy }}</h5>
-            </div>
-            <div class="ml-auto">
-              <span class="info-detail">
-                <img
-                  src="~/assets/icon/calendar-days-solid.svg"
-                  class="icon mr-1"
-                  alt=""
-                />{{ education.startDate }} - {{ education.endDate }}
-              </span>
-            </div>
+  <b-card>
+    <b-card-title outlined>
+      <h5 class="title">Education</h5>
+    </b-card-title>
+    <b-card-text>
+      <div v-for="(education, index) in Educations" :key="index" class="mt-2">
+        <div class="d-flex flex-row">
+          <div>
+            <h5 class="importent-title">{{ education.FieldOfStudy }}</h5>
           </div>
-          <span class="title">
-            <img
-              src="~/assets/icon/location-dot-solid.svg"
-              class="icon"
-              alt=""
-            />
-            {{ education.School }} - {{ education.Location }}
-          </span>
+          <div class="ml-auto">
+            <span class="info-detail">
+              <img
+                src="~/assets/icon/calendar-days-solid.svg"
+                class="icon mr-1"
+                alt=""
+              />{{ education.startDate }} - {{ education.endDate }}
+            </span>
+          </div>
         </div>
-      </b-card-text>
-    </b-card>
-  </div>
+        <span class="title">
+          <img src="~/assets/icon/location-dot-solid.svg" class="icon" alt="" />
+          {{ education.School }} - {{ education.Location }}
+        </span>
+      </div>
+    </b-card-text>
+  </b-card>
 </template>
 
 <script>

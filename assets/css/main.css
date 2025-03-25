@@ -6,7 +6,7 @@ hr {
   color: #696969;
 }
 .title {
-  color: #253a3d;
+  color: #5e9299;
 }
 .link-text {
   color: #696969;
@@ -15,10 +15,16 @@ hr {
   font-size: 14px;
 }
 .card {
-  border-color: #bed3d6 !important;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #bed3d6 !important;
+  width: 100%;
+}
+.card-body {
+  padding: 16px 0px;
 }
 .importent-title {
-  color: #5e9299;
+  color: #253a3d;
 }
 
 .icon {
