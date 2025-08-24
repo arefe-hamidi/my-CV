@@ -28,6 +28,24 @@ export default {
     return {
       projects: [
         {
+          title: "APC Dev Platform",
+          link: "https://apc-dev-platform.azurewebsites.net",
+          description:
+            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
+        },
+        {
+          title: "APC Dev B2B",
+          link: "https://apc-dev-b2b.azurewebsites.net ",
+          description:
+            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
+        },
+        {
+          title: "APC Dev Customer",
+          link: "https://apc-dev-customer.azurewebsites.net",
+          description:
+            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
+        },
+        {
           title: "Drive - HiPixi ",
           link: "https://drive.hipixi.com/",
           description:
