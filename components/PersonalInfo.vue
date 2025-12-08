@@ -7,7 +7,7 @@
         </div>
         <div class="m-3">
           <div>
-            <h2 class="importent-title">Senior Front-End Developer</h2>
+            <h2 class="important-title">Senior Front-End Developer</h2>
           </div>
           <div>
             <h4 class="title">Arefeh Hamidi</h4>
@@ -45,14 +45,14 @@
             </a>
           </span>
         </div>
-        <!-- <div>
+        <div>
           <img src="~/assets/icon/github.svg" class="icon" alt="" />
           <span class="info-detail">
             <a href="https://github.com/arefe-hamidi" class="link-text"
               >arefe-hamidi</a
             ></span
           >
-        </div> -->
+        </div>
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@
       <div v-for="(education, index) in Educations" :key="index" class="mt-2">
         <div class="d-flex flex-row">
           <div>
-            <h5 class="importent-title">{{ education.FieldOfStudy }}</h5>
+            <h5 class="important-title">{{ education.FieldOfStudy }}</h5>
           </div>
           <div class="ml-auto">
             <span class="info-detail">

@@ -28,64 +28,52 @@ export default {
     return {
       projects: [
         {
-          title: "APC Dev Platform",
+          title: "APC Dev Platform Suite",
           link: "https://apc-dev-platform.azurewebsites.net",
           description:
-            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
+            "Enterprise development platform with B2B and customer portals built with Next.js 14, featuring role-based authentication and real-time collaboration tools.",
         },
         {
-          title: "APC Dev B2B",
-          link: "https://apc-dev-b2b.azurewebsites.net ",
-          description:
-            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
-        },
-        {
-          title: "APC Dev Customer",
-          link: "https://apc-dev-customer.azurewebsites.net",
-          description:
-            "A development platform for the APC company, providing a comprehensive set of tools and services for software development and project management.",
-        },
-        {
-          title: "Drive - HiPixi ",
+          title: "Drive - HiPixi",
           link: "https://drive.hipixi.com/",
           description:
-            "An enterprise platform for secure file uploading, management, and sharing.",
+            "Enterprise file management platform with 2GB chunked uploads, secure sharing, and advanced file organization capabilities.",
         },
         {
-          title: "Ako Rayan website",
+          title: "Ako Rayan Website",
           link: "https://akorayan.netlify.app/",
           description:
-            "A modern, responsive website turning ideas into real-world applications.",
+            "Modern corporate website built with Vue.js 3 and Nuxt.js, featuring responsive design and optimized performance.",
         },
         {
-          title: "Charm db panel",
+          title: "Charm Database Panel",
           link: "https://charmdb.wingstech.org/",
           description:
-            "A flexible database management panel with seamless collaboration features.",
+            "Dynamic database management interface with React Flow visualization, enabling drag-and-drop relationship modeling.",
         },
         {
-          title: "Code in One panel",
+          title: "Code Management Platform",
           link: "https://code.wingstech.org/",
           description:
-            "A development panel optimizing coding efficiency and project management.",
+            "Development collaboration platform with version control, project tracking, and team management features.",
         },
         {
-          title: "Rayka Txp",
+          title: "Rayka Transaction Platform",
           link: "http://194.225.78.198/authentication/sign-in",
           description:
-            "A financial platform for transaction processing and merchant tax calculations.",
+            "Financial transaction processing system with secure payment gateway integration and merchant management.",
         },
         {
-          title: "Clock App",
+          title: "Productivity Clock App",
           link: "http://45.92.94.113:4173/login",
           description:
-            "A productivity tool for time management, task scheduling, and team collaboration.",
+            "Team collaboration tool with time tracking, task management, and project scheduling capabilities.",
         },
         {
-          title: "Taksan",
+          title: "Taksan Industrial Marketplace",
           link: "https://taksaanpre.ir/",
           description:
-            "An industrial marketplace connecting suppliers and buyers for seamless transactions.",
+            "B2B marketplace platform connecting industrial suppliers and buyers with advanced search and transaction features.",
         },
       ],
     };

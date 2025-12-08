@@ -7,7 +7,7 @@
       <div v-for="(skills, index) in skillsGroup" :key="index" class="mb-4">
         <b-row>
           <b-col cols="4">
-            <h5 class="importent-title">{{ skills.Title }}</h5>
+            <h5 class="important-title">{{ skills.Title }}</h5>
           </b-col>
           <b-col cols="8">
             <b-row>
@@ -46,96 +46,87 @@ export default {
     return {
       skillsGroup: [
         {
-          Title: "Programming Languages",
+          Title: "Core Technologies",
           value: [
             { title: "JavaScript (ES6+)", level: "6+ years" },
             { title: "TypeScript", level: "3+ years" },
-            { title: "HTML5", level: "6+ years" },
-            { title: "CSS3", level: "6+ years" },
-          ],
-        },
-        {
-          Title: "Frontend Frameworks",
-          value: [
+            { title: "HTML5 & CSS3", level: "6+ years" },
             { title: "React.js", level: "3+ years" },
             { title: "Vue.js (2 & 3)", level: "6+ years" },
-            { title: "Next.js", level: "3+ years" },
-            { title: "Nuxt.js", level: "6+ years" },
-            { title: "Remix", level: "6 months" },
           ],
         },
         {
-          Title: "State Management",
+          Title: "Frameworks & Meta-Frameworks",
           value: [
-            { title: "Redux", level: "3+ years" },
+            { title: "Next.js 14", level: "3+ years" },
+            { title: "Nuxt.js 4", level: "6+ years" },
+            { title: "Remix", level: "6 months" },
+            { title: "React 18", level: "3+ years" },
+          ],
+        },
+        {
+          Title: "State Management & Data Flow",
+          value: [
+            { title: "Redux Toolkit", level: "3+ years" },
             { title: "Vuex", level: "6+ years" },
             { title: "Pinia", level: "1+ year" },
             { title: "Zustand", level: "2+ years" },
           ],
         },
         {
-          Title: "UI Libraries & Design Systems",
+          Title: "UI/UX & Styling",
           value: [
             { title: "Tailwind CSS", level: "3+ years" },
-            { title: "Bootstrap", level: "6+ years" },
-            { title: "Vuetify", level: "6+ years" },
             { title: "Shadcn/UI", level: "3+ months" },
             { title: "Material Design", level: "6+ years" },
             { title: "Sass/SCSS", level: "6+ years" },
-          ],
-        },
-        {
-          Title: "Development Tools",
-          value: [
-            { title: "Git & GitHub", level: "6+ years" },
-            { title: "Storybook", level: "2+ years" },
-            { title: "Webpack", level: "4+ years" },
-            { title: "Vite", level: "2+ years" },
-            { title: "ESLint & Prettier", level: "4+ years" },
+            { title: "Bootstrap", level: "6+ years" },
           ],
         },
         {
           Title: "Specialized Libraries",
           value: [
-            { title: "Leaflet.js", level: "2+ years" },
-            { title: "D3.js", level: "2+ years" },
             { title: "React Flow", level: "1+ year" },
-            { title: "CKEditor", level: "3+ years" },
+            { title: "D3.js", level: "2+ years" },
+            { title: "Leaflet.js", level: "2+ years" },
             { title: "Auth.js (NextAuth)", level: "3+ months" },
+            { title: "CKEditor", level: "3+ years" },
           ],
         },
         {
-          Title: "DevOps & Deployment",
+          Title: "Development & DevOps",
           value: [
+            { title: "Git & GitHub", level: "6+ years" },
             { title: "Azure DevOps", level: "3+ months" },
             { title: "CI/CD Pipelines", level: "3+ years" },
             { title: "Docker", level: "2+ years" },
+            { title: "Webpack & Vite", level: "4+ years" },
           ],
         },
         {
-          Title: "Performance & SEO",
+          Title: "Performance & Optimization",
           value: [
-            { title: "SEO Optimization", level: "4+ years" },
             { title: "Lighthouse Auditing", level: "3+ years" },
+            { title: "SEO Optimization", level: "4+ years" },
             { title: "Performance Optimization", level: "5+ years" },
+            { title: "Bundle Optimization", level: "4+ years" },
           ],
         },
         {
-          Title: "Languages",
+          Title: "Languages & Communication",
           value: [
-            { title: "English", level: "Intermediate" },
+            { title: "English", level: "Professional" },
             { title: "Persian", level: "Native" },
           ],
         },
         {
-          Title: "Soft Skills",
+          Title: "Leadership & Soft Skills",
           value: [
             { title: "Team Leadership" },
-            { title: "Problem Solving" },
+            { title: "Technical Mentoring" },
+            { title: "Code Review & Best Practices" },
+            { title: "Agile/Scrum Methodologies" },
             { title: "Project Management" },
-            { title: "Code Review" },
-            { title: "Mentoring" },
-            { title: "Agile/Scrum" },
             { title: "Technical Documentation" },
           ],
         },
@@ -146,7 +137,7 @@ export default {
 </script>
 
 <style scoped>
-.importent-title {
+.important-title {
   color: #2c3e50;
   font-weight: 600;
   font-size: 16px;

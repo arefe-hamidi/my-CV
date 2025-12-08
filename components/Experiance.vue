@@ -49,18 +49,18 @@ export default {
       works: [
         {
           jobPosition: "Senior Front-End Developer",
-          companyName: "Puls Cloud Development GmbH",
+          companyName: "Desinno Soft",
           EmploymentType: "Full time",
           startDate: "Jul 2025",
           endDate: "Present",
           locationType: "Remote",
-          location: "Berlin, Germany",
+          location: "Dubai, United Arab Emirates",
           achievements: [
-            "Led development of modern, scalable web applications using <strong>Next.js 14</strong> and <strong>React 18</strong>, achieving 40% faster page load times through optimized SSR and static generation strategies.",
-            "Implemented enterprise-grade authentication using <strong>Auth.js (NextAuth.js)</strong> with role-based access control, reducing security incidents by 95% and improving user session management.",
-            "Architected state management solutions using <strong>Zustand</strong> , resulting in 60% reduction in API calls and improved data consistency across the application.",
-            "Built responsive, accessible UI components using <strong>Tailwind CSS</strong> and <strong>Shadcn/UI</strong>, maintaining 98% Lighthouse accessibility score and 95+ mobile performance score.",
-            "Established CI/CD pipelines using <strong>Microsoft Azure DevOps</strong>, reducing deployment time by 70% and implementing automated testing with 90% code coverage.",
+            "Led development of modern, scalable web applications using <strong>Next.js 15</strong> and <strong>React 19</strong>, achieving significantly faster page load times through optimized SSR and static generation strategies.",
+            "Implemented enterprise-grade authentication using <strong>Auth.js (NextAuth.js)</strong> with role-based access control, significantly reducing security incidents and improving user session management.",
+            "Architected state management solutions using <strong>Zustand</strong> , resulting in substantial reduction in API calls and improved data consistency across the application.",
+            "Built responsive, accessible UI components using <strong>Tailwind CSS</strong> and <strong>Shadcn/UI</strong>, maintaining high Lighthouse accessibility scores and excellent mobile performance.",
+            "Established CI/CD pipelines using <strong>Microsoft Azure DevOps</strong>, significantly reducing deployment time and implementing automated testing with comprehensive code coverage.",
           ],
         },
         {
@@ -72,11 +72,11 @@ export default {
           locationType: "Remote",
           location: "Tehran, Tehran Province, Iran",
           achievements: [
-            "Developed a chunked file upload system handling files up to 2GB, reducing upload failures by 85% and improving user experience for large file transfers.",
-            "Built high-performance web applications using <strong>React.js</strong> and <strong>TypeScript</strong>, achieving 50% improvement in bundle size and 35% faster rendering through code splitting and lazy loading.",
+            "Developed a chunked file upload system handling files up to 2GB, significantly reducing upload failures and improving user experience for large file transfers.",
+            "Built high-performance web applications using <strong>React.js</strong> and <strong>TypeScript</strong>, achieving substantial improvement in bundle size and faster rendering through code splitting and lazy loading.",
             "Implemented <strong>React Flow</strong> for dynamic database structure visualization, enabling users to create and modify complex data relationships with drag-and-drop functionality.",
-            "Conducted comprehensive accessibility audits and implemented WCAG 2.1 AA compliance, improving usability for users with disabilities and achieving 100% keyboard navigation support.",
-            "Established code review processes and modular architecture patterns, reducing bug reports by 40% and improving code maintainability across the team.",
+            "Conducted comprehensive accessibility audits and implemented WCAG 2.1 AA compliance, improving usability for users with disabilities and achieving full keyboard navigation support.",
+            "Established code review processes and modular architecture patterns, reducing bug reports and improving code maintainability across the team.",
           ],
         },
         {
@@ -88,7 +88,7 @@ export default {
           locationType: "Remote",
           location: "Tehran, Tehran Province, Iran",
           achievements: [
-            "Developed responsive web applications using <strong>Vue.js 3</strong> with Composition API, improving component reusability by 60% and reducing development time by 30%.",
+            "Developed responsive web applications using <strong>Vue.js 3</strong> with Composition API, significantly improving component reusability and reducing development time.",
             "Integrated <strong>Leaflet</strong> for interactive mapping features and <strong>Pinia</strong> for state management, creating seamless user experiences for location-based services.",
             "Utilized <strong>Vuexy</strong> design system to maintain consistent UI/UX patterns across multiple applications.",
           ],
@@ -102,10 +102,10 @@ export default {
           locationType: "Remote",
           location: "Tehran, Tehran Province, Iran",
           achievements: [
-            "Led and mentored a team of 4 front-end developers, improving team productivity by 45% and reducing project delivery time by 25% through effective code reviews and pair programming.",
-            "Architected and implemented payment gateway integrations including Stripe and PayPal, processing over $2M in transactions with 99.9% success rate and comprehensive error handling.",
-            "Optimized 15+ key pages for SEO using <strong>SSR</strong>, <strong>CSR</strong>, and <strong>SPA</strong> strategies, resulting in 78% improvement in search rankings and 120% increase in organic traffic.",
-            "Implemented automated testing strategies and CI/CD pipelines, reducing production bugs by 60% and deployment time by 50%.",
+            "Led and mentored a team of 4 front-end developers, significantly improving team productivity and reducing project delivery time through effective code reviews and pair programming.",
+            "Architected and implemented payment gateway integrations including Stripe and PayPal, processing over $2M in transactions with high success rate and comprehensive error handling.",
+            "Optimized 15+ key pages for SEO using <strong>SSR</strong>, <strong>CSR</strong>, and <strong>SPA</strong> strategies, resulting in substantial improvement in search rankings and significant increase in organic traffic.",
+            "Implemented automated testing strategies and CI/CD pipelines, reducing production bugs and deployment time.",
           ],
         },
         {
@@ -117,10 +117,10 @@ export default {
           locationType: "Remote",
           location: "Tehran, Tehran Province, Iran",
           achievements: [
-            "Developed modular, responsive templates using modern CSS techniques and JavaScript libraries, improving page load speed by 40% and mobile responsiveness scores by 35%.",
-            "Optimized 18+ applications for maximum performance and scalability, implementing lazy loading and code splitting strategies that reduced initial bundle size by 50%.",
+            "Developed modular, responsive templates using modern CSS techniques and JavaScript libraries, significantly improving page load speed and mobile responsiveness scores.",
+            "Optimized 18+ applications for maximum performance and scalability, implementing lazy loading and code splitting strategies that substantially reduced initial bundle size.",
             "Integrated <strong>Leaflet</strong> for interactive maps, <strong>CKEditor</strong> for rich text editing, and <strong>Vuex</strong> for state management, enhancing user experience across multiple applications.",
-            "Implemented <strong>Sass</strong> architecture and CSS custom properties, reducing CSS bundle size by 30% and improving maintainability across the codebase.",
+            "Implemented <strong>Sass</strong> architecture and CSS custom properties, reducing CSS bundle size and improving maintainability across the codebase.",
           ],
         },
         {
@@ -134,7 +134,7 @@ export default {
           achievements: [
             "Built responsive websites using <strong>Vue.js</strong> and <strong>Nuxt.js</strong>, implementing SSR for improved SEO and faster initial page loads.",
             "Developed interactive admin panel using <strong>D3.js</strong> for dynamic menu management, enabling drag-and-drop functionality for complex hierarchical structures.",
-            "Implemented comprehensive client-side validation with 100% input sanitization, reducing server-side errors by 80% and improving data integrity.",
+            "Implemented comprehensive client-side validation with complete input sanitization, significantly reducing server-side errors and improving data integrity.",
             "Collaborated with design and backend teams to ensure seamless integration and optimal user experience across all touchpoints.",
           ],
         },

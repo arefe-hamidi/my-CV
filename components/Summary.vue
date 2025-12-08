@@ -5,30 +5,28 @@
     </b-card-title>
     <b-card-text>
       <p class="summary-text">
-        Results-driven <strong>Senior Front-End Developer</strong> with 6+ years
-        of experience architecting and delivering high-performance web
-        applications. Proven track record of leading development teams,
-        optimizing application performance by 40-60%, and implementing
-        enterprise-grade solutions using modern technologies including
-        <strong>React 18</strong>, <strong>Vue.js 3</strong>,
-        <strong>Next.js 14</strong>
-        <strong>Nuxt.js 4</strong>
-        , and <strong>TypeScript</strong>.
+        Accomplished <strong>Senior Front-End Developer</strong> with 6+ years
+        of expertise in architecting and delivering enterprise-scale web
+        applications. Proven track record in leading cross-functional teams and
+        driving technical excellence through innovative solutions built with
+        modern technologies including <strong>React 19</strong>,
+        <strong>Vue.js 3</strong>, <strong>Next.js 15</strong>,
+        <strong>Nuxt.js 4</strong>, and <strong>TypeScript</strong>.
       </p>
       <p class="summary-text">
-        Expert in building scalable, accessible applications with
-        <strong>98% Lighthouse accessibility scores</strong> and
-        <strong>95+ mobile performance scores</strong>. Skilled in implementing
-        secure authentication systems, optimizing SEO strategies resulting in
-        <strong>78% search ranking improvements</strong>, and establishing CI/CD
-        pipelines that reduce deployment time by <strong>70%</strong>.
+        Specialized in building highly accessible, performant applications that
+        meet <strong>excellent Lighthouse accessibility standards</strong> and
+        deliver <strong>outstanding mobile performance</strong>. Expert in
+        architecting enterprise authentication systems, implementing strategic
+        SEO optimizations, and establishing robust CI/CD pipelines that
+        streamline development workflows and accelerate time-to-market.
       </p>
       <p class="summary-text">
-        Passionate about mentoring junior developers, conducting code reviews,
-        and driving technical excellence through best practices. Strong advocate
-        for performance optimization, accessibility standards, and user-centered
-        design principles. Committed to continuous learning and staying current
-        with emerging front-end technologies and industry trends.
+        Passionate about technical excellence, team mentorship, and continuous
+        learning. Strong advocate for performance optimization, accessibility
+        standards, and user-centric design principles. Dedicated to staying at
+        the forefront of front-end technologies to deliver innovative solutions
+        that create meaningful business impact.
       </p>
     </b-card-text>
   </b-card>

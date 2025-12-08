@@ -22,10 +22,10 @@ export default {
   data() {
     return {
       hobbies: [
-        "Admirer of nature and beauty",
-        "Interested in art, especially traditional art, and reading books",
-        "Painting is my main hobby",
-        "Interested in traveling, learning about different cultures, and trying new foods",
+        "Nature photography and outdoor activities",
+        "Traditional art appreciation and creative writing",
+        "Digital painting and visual design",
+        "Cultural exploration through travel and culinary experiences",
       ],
     };
   },
