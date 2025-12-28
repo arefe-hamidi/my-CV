@@ -58,49 +58,62 @@ export default {
         {
           Title: "Frameworks & Meta-Frameworks",
           value: [
-            { title: "Next.js 14", level: "3+ years" },
+            { title: "Next.js 15", level: "3+ years" },
+            { title: "React 19", level: "3+ years" },
             { title: "Nuxt.js 4", level: "6+ years" },
             { title: "Remix", level: "6 months" },
-            { title: "React 18", level: "3+ years" },
           ],
         },
         {
           Title: "State Management & Data Flow",
           value: [
+            { title: "TanStack Query (React Query)", level: "1+ year" },
+            { title: "Zustand", level: "2+ years" },
             { title: "Redux Toolkit", level: "3+ years" },
             { title: "Vuex", level: "6+ years" },
             { title: "Pinia", level: "1+ year" },
-            { title: "Zustand", level: "2+ years" },
           ],
         },
         {
           Title: "UI/UX & Styling",
           value: [
             { title: "Tailwind CSS", level: "3+ years" },
-            { title: "Shadcn/UI", level: "3+ months" },
+            { title: "Shadcn/UI", level: "1+ year" },
             { title: "Material Design", level: "6+ years" },
             { title: "Sass/SCSS", level: "6+ years" },
             { title: "Bootstrap", level: "6+ years" },
           ],
         },
         {
-          Title: "Specialized Libraries",
+          Title: "Specialized Libraries & Tools",
           value: [
+            { title: "Auth.js (NextAuth.js)", level: "1+ year" },
+            { title: "Azure AD B2C", level: "1+ year" },
             { title: "React Flow", level: "1+ year" },
             { title: "D3.js", level: "2+ years" },
             { title: "Leaflet.js", level: "2+ years" },
-            { title: "Auth.js (NextAuth)", level: "3+ months" },
             { title: "CKEditor", level: "3+ years" },
+            { title: "Internationalization (i18n)", level: "2+ years" },
           ],
         },
         {
           Title: "Development & DevOps",
           value: [
             { title: "Git & GitHub", level: "6+ years" },
-            { title: "Azure DevOps", level: "3+ months" },
+            { title: "Azure DevOps", level: "1+ year" },
             { title: "CI/CD Pipelines", level: "3+ years" },
             { title: "Docker", level: "2+ years" },
             { title: "Webpack & Vite", level: "4+ years" },
+            { title: "proxyFetch", level: "1+ year" },
+          ],
+        },
+        {
+          Title: "Testing & Quality Assurance",
+          value: [
+            { title: "Vitest", level: "1+ year" },
+            { title: "React Testing Library", level: "1+ year" },
+            { title: "Unit Testing", level: "2+ years" },
+            { title: "Test-Driven Development (TDD)", level: "1+ year" },
           ],
         },
         {
@@ -110,6 +123,7 @@ export default {
             { title: "SEO Optimization", level: "4+ years" },
             { title: "Performance Optimization", level: "5+ years" },
             { title: "Bundle Optimization", level: "4+ years" },
+            { title: "SSR/SSG Optimization", level: "3+ years" },
           ],
         },
         {
@@ -117,6 +131,16 @@ export default {
           value: [
             { title: "English", level: "Professional" },
             { title: "Persian", level: "Native" },
+          ],
+        },
+        {
+          Title: "Architecture & Patterns",
+          value: [
+            { title: "Fractal Modular Architecture" },
+            { title: "Component-Based Architecture" },
+            { title: "Design Patterns" },
+            { title: "API Design & Integration" },
+            { title: "Error Handling Strategies" },
           ],
         },
         {
@@ -156,7 +180,7 @@ export default {
 }
 
 .separator {
-  color: #dee2e6;
+  color: #34495e;
   font-weight: 300;
 }
 

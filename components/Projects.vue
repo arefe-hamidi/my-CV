@@ -28,10 +28,22 @@ export default {
     return {
       projects: [
         {
+          title: "APC Dev Customer Portal",
+          link: "https://apc-dev-customer.azurewebsites.net/",
+          description:
+            "Customer portal for APC Dev, built with Next.js 15, featuring role-based authentication and real-time collaboration tools.",
+        },
+        {
+          title: "APC Dev B2B Portal",
+          link: "https://apc-dev-b2b.azurewebsites.net/",
+          description:
+            "B2B portal for APC Dev, built with Next.js 15, featuring role-based authentication and real-time collaboration tools.",
+        },
+        {
           title: "APC Dev Platform Suite",
           link: "https://apc-dev-platform.azurewebsites.net",
           description:
-            "Enterprise development platform with B2B and customer portals built with Next.js 14, featuring role-based authentication and real-time collaboration tools.",
+            "Enterprise development platform for APC Dev, built with Next.js 15, featuring role-based authentication and real-time collaboration tools.",
         },
         {
           title: "Drive - HiPixi",
